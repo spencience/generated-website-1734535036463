@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore and debunk the most popular urban legends. From alligators in sewers to hook-handed killers, we separate fact from fiction.">
+    <meta name="keywords" content="urban legends, myths, fact check, debunking, folklore, modern myths">
+    <title>Urban Legends - That's Totally Wrong!</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            25% { transform: translateX(-5px) rotate(-1deg); }
+            75% { transform: translateX(5px) rotate(1deg); }
+        }
+        .wrong-shake:hover {
+            animation: shake 0.5s ease-in-out;
+        }
+        .legend-card:hover {
+            transform: translateY(-5px);
+            transition: transform 0.3s ease;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col bg-gray-50">
+    <header class="bg-red-600 text-white shadow-lg">
+        <div class="container mx-auto px-4 py-6">
+            <div class="flex justify-between items-center">
+                <a href="/generated-website-1734535036463/" class="text-3xl font-bold wrong-shake">
+                    That's Totally Wrong!
+                </a>
+                <nav class="hidden md:flex space-x-6">
+                    <a href="/generated-website-1734535036463/submit.html" class="hover:text-red-200">Submit a Wrong</a>
+                    <a href="/generated-website-1734535036463/hall-of-wrong.html" class="hover:text-red-200">Hall of Wrong</a>
+                    <a href="/generated-website-1734535036463/fact-check.html" class="hover:text-red-200">Fact Check</a>
+                    <a href="/generated-website-1734535036463/about.html" class="hover:text-red-200">About</a>
+                </nav>
+                <button class="md:hidden p-2 hover:bg-red-700 rounded">
+                    <div class="w-6 h-0.5 bg-white mb-1"></div>
+                    <div class="w-6 h-0.5 bg-white mb-1"></div>
+                    <div class="w-6 h-0.5 bg-white"></div>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-grow container mx-auto px-4 py-8">
+        <div class="bg-white rounded-lg shadow-md p-6 mb-8">
+            <h1 class="text-3xl font-bold mb-4">Popular Urban Legends</h1>
+            <p class="text-gray-600 mb-6">Urban legends are modern folklore that spreads through society, often containing elements of mystery, horror, or humor. Here we examine some of the most persistent myths and reveal the truth behind them.</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <article class="legend-card bg-gray-50 rounded-lg p-4 shadow-md transition-all">
+                    <h2 class="text-xl font-semibold mb-3">
+                        <a href="/generated-website-1734535036463/legends/alligators-in-sewers.html" class="text-red-600 hover:text-red-800">
+                            Alligators in the Sewers
+                        </a>
+                    </h2>
+                    <p class="text-gray-700 mb-4">The famous tale of baby alligators being flushed down toilets in New York City, growing to massive sizes in the sewers.</p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-sm text-red-500">Danger Rating: 2/10</span>
+                        <a href="/generated-website-1734535036463/legends/alligators-in-sewers.html" class="text-blue-600 hover:underline">Read More →</a>
+                    </div>
+                </article>
+
+                <article class="legend-card bg-gray-50 rounded-lg p-4 shadow-md transition-all">
+                    <h2 class="text-xl font-semibold mb-3">
+                        <a href="/generated-website-1734535036463/legends/kidney-theft.html" class="text-red-600 hover:text-red-800">
+                            The Kidney Heist
+                        </a>
+                    </h2>
+                    <p class="text-gray-700 mb-4">Business traveler wakes up in a bathtub full of ice, missing a kidney after meeting a stranger at a bar.</p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-sm text-red-500">Danger Rating: 5/10</span>
+                        <a href="/generated-website-1734535036463/legends/kidney-theft.html" class="text-blue-600 hover:underline">Read More →</a>
+                    </div>
+                </article>
+
+                <article class="legend-card bg-gray-50 rounded-lg p-4 shadow-md transition-all">
+                    <h2 class="text-xl font-semibold mb-3">
+                        <a href="/generated-website-1734535036463/legends/hook-man.html" class="text-red-600 hover:text-red-800">
+                            The Hook Man
+                        </a>
+                    </h2>
+                    <p class="text-gray-700 mb-4">Escaped convict with a hook for a hand terrorizes young couples parked in lovers' lanes.</p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-sm text-red-500">Danger Rating: 3/10</span>
+                        <a href="/generated-website-1734535036463/legends/hook-man.html" class="text-blue-600 hover:underline">Read More →</a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="mt-8 p-4 bg-red-50 rounded-lg border border-red-200">
+                <h3 class="text-lg font-semibold mb-2">Did You Know?</h3>
+                <p class="text-gray-700">Urban legends often reflect society's deeper fears and anxieties. They serve as modern cautionary tales, warning against perceived dangers while reflecting contemporary concerns.</p>
+            </div>
+
+            <div class="mt-8">
+                <h3 class="text-2xl font-bold mb-4">Submit Your Own Urban Legend</h3>
+                <form action="/generated-website-1734535036463/submit-legend" method="GET" class="space-y-4">
+                    <div>
+                        <label for="legend-title" class="block text-gray-700 mb-2">Legend Title</label>
+                        <input type="text" id="legend-title" name="title" class="w-full p-2 border rounded-lg" required>
+                    </div>
+                    <div>
+                        <label for="legend-description" class="block text-gray-700 mb-2">Description</label>
+                        <textarea id="legend-description" name="description" rows="4" class="w-full p-2 border rounded-lg" required></textarea>
+                    </div>
+                    <button type="submit" class="bg-red-600 text-white px-6 py-2 rounded-lg hover:bg-red-700">Submit Legend</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-gray-800 text-white">
+        <div class="container mx-auto px-4 py-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="/generated-website-1734535036463/privacy.html" class="hover:text-red-400">Privacy Policy</a></li>
+                        <li><a href="/generated-website-1734535036463/terms.html" class="hover:text-red-400">Terms of Service</a></li>
+                        <li><a href="/generated-website-1734535036463/contact.html" class="hover:text-red-400">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Connect</h3>
+                    <ul class="space-y-2">
+                        <li><a href="/generated-website-1734535036463/discord.html" class="hover:text-red-400">Join our Discord</a></li>
+                        <li><a href="/generated-website-1734535036463/newsletter.html" class="hover:text-red-400">Newsletter</a></li>
+                        <li><a href="/generated-website-1734535036463/community.html" class="hover:text-red-400">Community</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Categories</h3>
+                    <ul class="space-y-2">
+                        <li><a href="/generated-website-1734535036463/category/history.html" class="hover:text-red-400">Historical Wrongs</a></li>
+                        <li><a href="/generated-website-1734535036463/category/science.html" class="hover:text-red-400">Scientific Misconceptions</a></li>
+                        <li><a href="/generated-website-1734535036463/category/urban-legends.html" class="hover:text-red-400">Urban Legends</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-8 text-center text-gray-400">
+                <p>&copy; 2024 That's Totally Wrong! - Debunking myths one fact at a time</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="hidden fixed inset-0 bg-gray-800 bg-opacity-50">
+        <div class="bg-white h-full w-64 p-4">
+            <nav class="space-y-4">
+                <a href="/generated-website-1734535036463/submit.html" class="block hover:text-red-600">Submit a Wrong</a>
+                <a href="/generated-website-1734535036463/hall-of-wrong.html" class="block hover:text-red-600">Hall of Wrong</a>
+                <a href="/generated-website-1734535036463/fact-check.html" class="block hover:text-red-600">Fact Check</a>
+                <a href="/generated-website-1734535036463/about.html" class="block hover:text-red-600">About</a>
+            </nav>
+        </div>
+    </div>
+</body>
+</html>
